@@ -7,7 +7,7 @@ class Config:
   test_target = 'data/DailyDialog/baseline/filtered_data/testTarget.txt'
   text_vocab = 'data/DailyDialog/baseline/filtered_data/vocab.txt'
   vector_vocab = 'data/DailyDialog/filtered_data/vocab.npy'
-  test_responses = 'data/DailyDialog/baseline/filtered_data/testTarget.txt'
+  test_responses = 'data/DailyDialog/baseline/filtered_data/test/testTarget.txt'
   metrics = {
     'length': 1,
     'per-unigram-entropy': 1,
